@@ -1,0 +1,6 @@
+h1 {
+    @apply text-3xl
+}
+strong {
+    @apply block py-5 text-2xl
+}

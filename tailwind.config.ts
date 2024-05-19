@@ -32,7 +32,8 @@ const config: Config = {
         "accent-dark-300":"#5d1416",
       },
       screens: {
-        "ssm": "390px"
+        "ssm": "390px",
+        "md":"769px",
       }
     },
   },
