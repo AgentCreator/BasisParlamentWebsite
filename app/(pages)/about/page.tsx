@@ -1,17 +1,12 @@
 import Link from 'next/link'
 import Markdown from 'react-markdown'
 
-const markdown = `**|** ***about, or not to about...*** 
-
-
-\`\`\`js
-somebody
-\`\`\`
+const markdown = `тут покіщо нічого :)
 `
 
 function Title() {
     return <div className=" w-[80ch] dark:bg-white/20 bg-white backdrop-blur-xl shadow-sm aspect-[3/1] max-md:aspect-[10/3] m-10 mt-5 rounded-xl max-md:w-[85%] max-md:m-0 max-md:mb-10 max-md:mt-4">
-        <p className=' text-8xl font-bold align-middle h-full md:m-10 max-md:m-2 max-md:text-4xl'>About Us</p>
+        <p className=' text-8xl font-bold align-middle h-full md:m-10 max-md:m-2 max-md:text-4xl'>Про Нас</p>
     </div>
 }
 

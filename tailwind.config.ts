@@ -33,7 +33,8 @@ const config: Config = {
       },
       screens: {
         "ssm": "390px",
-        "md":"769px",
+        "md":"1025px",
+        "3xl":"2040px",
       }
     },
   },

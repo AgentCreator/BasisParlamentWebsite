@@ -9,14 +9,14 @@ import { ArrowUpRightIcon } from "@heroicons/react/24/outline";
 export default function Home() {
   return (
     <><div className=" min-h-screen overflow-x-hidden">
-<p className=" text-center m-10 font-bold text-6xl">Welcome to<BasisLogo/></p>
+<p className=" text-center m-10 font-bold text-6xl">Вітаю в школі<span><BasisLogo/></span></p>
       <div className=" grid place-content-center">
       <div className=" h-60 aspect-video border-2 border-red-600 max-md:w-screen m-2">video here</div>
       </div>
       <div className=" flex flex-row gap-7 p-5 w-screen">
-        <SLink href={"/parlament"}>parlament <ArrowUpRightIcon className=" h-[1em] inline-block"/></SLink>
-        <SLink href={"/about"}>about <ArrowUpRightIcon className=" h-[1em] inline-block"/></SLink>
-        <SLink href={"/clubs"}>clubs <ArrowUpRightIcon className=" h-[1em] inline-block"/></SLink>
+        <SLink href={"/parlament"}>Парламент <ArrowUpRightIcon className=" h-[1em] inline-block"/></SLink>
+        <SLink href={"/about"}>Про нас <ArrowUpRightIcon className=" h-[1em] inline-block"/></SLink>
+        <SLink href={"/clubs"}>Клуби <ArrowUpRightIcon className=" h-[1em] inline-block"/></SLink>
       </div>
     </div>
     <Footer/>

@@ -10,7 +10,7 @@ interface clubInterface {
 }
 
 const clubs: Array<clubInterface> = [
-    {name:"Test", time:"wednesday, 15:45 — 16:30", chat:"t.me", owner:"Мумрик"},
+    {name:"Test tralala", time:"середа, 15:45 — 16:30", chat:"t.me", owner:"Мумрик"},
     {name:"Генетика (біологія)"},
     {name:"Головоломки"},
     {name:"Історично-картографічний"},
@@ -26,22 +26,19 @@ const clubs: Array<clubInterface> = [
 function Tabl() {
     return <table className=" w-full mt-10">
         <thead>
-            <tr>
+            <tr className=' dark:text-white/50 font-semibold'>
                 {/* <td></td> */}
-                <td className="pb-5">club name</td>
-                <td className="pb-5">owner</td>
-                <td className="pb-5">time</td>
+                <td className="pb-5">клуб</td>
+                <td className="pb-5">головний</td>
+                <td className="pb-5">час</td>
             </tr>
         </thead>
         <tbody className="">
-            {clubs.map((e) => <tr className="dark:odd:bg-accent-dark-100/20 odd:bg-accent-light-100/10">
+            {clubs.map((e) => <tr className="dark:odd:bg-accent-dark-100/20 odd:bg-accent-light-100/10 w-full">
                 {/* <td className=" ">{clubs.indexOf(e)+1}</td> */}
                 <td className='p-4 pr-0 rounded-l-full'>{/**<Link href={`/club/${e.owner.replaceAll(" ", "+")}/${e.name.replaceAll(" ", "+")}`}> */}
                     <p className={clsx(
-                        ' overflow-ellipsis overflow-hidden inline-block pl-2',
-                        {
-                            " w-full":!(e.owner && e.time)
-                        }
+                        ' overflow-ellipsis overflow-hidden inline-block pl-2 w-min line-clamp-2',
                         )}>
                         {e.name}
                     </p>{/**</Link> */}
@@ -57,9 +54,9 @@ function Tabl() {
 
 function Home() {
     return <div className=" grid w-screen h-screen place-items-center p-20 max-md:pt-10 max-md:p-0 overflow-x-hidden">
-        <div className=" w-full h-full m-10 dark:bg-black bg-white rounded-3xl p-10 max-md:p-5 max-md:overflow-hidden">
+        <div className=" w-full h-full m-10 dark:bg-black bg-white rounded-3xl p-10 max-md:p-2">
             <div className=" flex flex-row">
-                <p className=" font-bold text-5xl max-md:text-3xl">clubs</p>
+                <p className=" font-bold text-5xl max-md:text-3xl max-md:pl-3 max-md:pt-3">клуби</p>
                 <div className=" relative w-full">
                     {/* TODO: decoment this when you figure out how to make the "suggest new club" feature */}
                     {/* <Link href={"#"}>

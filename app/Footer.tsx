@@ -47,13 +47,13 @@ export function Footer() {
 
 
 
-this website is made by **Oleksander Krainiak** for the **Basis School Parlament**.
+цей вебсайт написаний **Олександром Крайняком** для **Парламенту Школи Базис**.
 
-if you have spare time, please follow me on [**github**](https://github.com/AgentCreator)
+якщо вам сподобалась моя робота, будь ласка підпишіться на мене на [**Ґітхабі**](https://github.com/AgentCreator)
 
-**thanks!**
+**дякую!**
 
-###### **Basis School Accounts:**
+**офіційні аккаунти школи Базис:**
 
 ***[instagram](https://www.instagram.com/sciencebasis/)***
 ***[facebook](https://www.facebook.com/sciencebasis/)***
@@ -70,7 +70,7 @@ if you have spare time, please follow me on [**github**](https://github.com/Agen
 
     return <div className=" w-screen h-80 dark:bg-white/10 bg-black/10 rounded-t-[3rem] p-10 dark:text-white/50 text-black/50 footer">
         <Markdown>{RArcticle}</Markdown>
-        <button className=" hover:dark:bg-white/10 hover:bg-black/10 p-3 rounded-xl transition-all hover:scale-105 active:scale-90 ease-in-out" onClick={switchDark}>switch to {isDark ? "light" : "dark"} mode</button>
+        <button className=" hover:dark:bg-white/10 hover:bg-black/10 p-3 rounded-xl transition-all hover:scale-105 active:scale-90 ease-in-out" onClick={switchDark}>включити {isDark ? "світлу" : "темну"} тему</button>
     </div>
 }
 

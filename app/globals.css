@@ -1,4 +1,7 @@
 @tailwind base;
   @tailwind components;
   @tailwind utilities;
-  
+
+.footer a {
+  @apply dark:text-blue-500/75 text-blue-700/90
+}
