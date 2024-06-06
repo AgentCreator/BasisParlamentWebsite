@@ -28,15 +28,15 @@ function Home(){
                     <SLink href={"/parlament/hartias"}>прочитати тут</SLink>
                     <SLink href={"https://bit.ly/4dw2KiI"}>Google Docs</SLink>
                 </Card>
-                <Card title="що таке Парламент?" className=" md:col-span-2 max-md:row-span-2">
+                <Card title="Що таке Парламент?" className=" md:col-span-2 max-md:row-span-2">
                     <p className=" dark:text-white/75 text-black/50">Це орган самоврядування учнів Базису, голос та захисник інтересів учнів.
 Р.S: Тому і є відкритим до відвідування усіма учнями.
 Парламент обраний ТІЛЬКИ учнями на один календарний рік. (дод. інфо. пізніше)
 Обираються певна кількість представників на паралель.
 Звісно ж, відповідальність.</p>
                 </Card>
-                <Card title="запросіть друга" className=" row-span-2">
-                    <p className=" dark:text-white/50 text-black/50">у вас є друг, якому подобається політика або робити зміни? запросіть його, йому тут сподобається :) </p>
+                <Card title="Приходьте до нас!" className=" row-span-2">
+                    <p className=" dark:text-white/50 text-black/50">хочеш приєднатися до парламенту? у нас будуть скоро вибори, та можете спробувати прийти до нас в п'ятницю в перші 2 тижні щоб спробувати!</p>
                     <ChatBubbleLeftRightIcon className="w-full aspect-square "/>
 
                 </Card>
@@ -47,7 +47,7 @@ function Home(){
                             ви знаєте, як зробити школу або Парламент кращим? У вас є клуб який ви хочете проводити? Запропонуйте нам свою ідею, і, можливо, вона змінить Базис!
                         </p>
                         <SLink href={"#"}>Запропонувати ідею для вебсайту <span className=" dark:text-accent-dark-50 text-accent-light-50">(COMING SOON)</span></SLink>
-                        <SLink href={"#"}>Запропонувати ідею до Парламенту <span className=" dark:text-accent-dark-50 text-accent-light-50">(COMING SOON)</span></SLink>
+                        <SLink href={"https://forms.gle/2ZUi8U24jLXP5TBn6"}>Запропонувати ідею до Парламенту</SLink>
                     </div>
                     <PencilSquareIcon className=" basis-1/3 h-1/2 aspect-squere "/>
                     </div>
@@ -57,3 +57,4 @@ function Home(){
     </div>
 }
 export default Home
+

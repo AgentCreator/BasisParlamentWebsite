@@ -11,16 +11,16 @@ interface clubInterface {
 
 const clubs: Array<clubInterface> = [
     {name:"Test tralala", time:"середа, 15:45 — 16:30", chat:"t.me", owner:"Мумрик"},
-    {name:"Генетика (біологія)"},
-    {name:"Головоломки"},
-    {name:"Історично-картографічний"},
-    {name:"Історично-комедійний"},
-    {name:"Підземелля та дракони"},
-    {name:"Орігамі"},
-    {name:"Сенс Філософії"},
-    {name:"Теніс"},
-    {name:"Юні актори"},
-    {name:"DIY"},
+    {name:"Генетика (біологія)", chat:"t.me/+01hxnW1fPGZkNzMy"},
+    {name:"Головоломки", chat:"t.me/+hJ1bHcF2QVA4ZGQy"},
+    {name:"Історично-картографічний", chat:"t.me/+0StbM49B28RmZTZi"},
+    {name:"Історично-комедійний", chat:"t.me/+0StbM49B28RmZTZi"},
+    {name:"настільні ігри (D&D)", chat:"t.me/+gRvsSi3z-m82ODJi"},
+    {name:"Орігамі", chat:"t.me/+mQyq4yUyB-EwMDUy"},
+    {name:"Сенс Філософії", chat:"t.me/+74D47U7Zkq9mOWQ6"},
+    {name:"Теніс", chat:"t.me/+txxDi7Yu-Yc3ZTUy"},
+    {name:"Юні актори", chat:"t.me/+S8ysOrIah_pkMWRi"},
+    {name:"DIY", chat:"t.me/+PIabfMvt9LkyOGNi"},
 ]
 
 function Tabl() {
@@ -56,7 +56,7 @@ function Home() {
     return <div className=" grid w-screen h-screen place-items-center p-20 max-md:pt-10 max-md:p-0 overflow-x-hidden">
         <div className=" w-full h-full m-10 dark:bg-black bg-white rounded-3xl p-10 max-md:p-2">
             <div className=" flex flex-row">
-                <p className=" font-bold text-5xl max-md:text-3xl max-md:pl-3 max-md:pt-3">клуби</p>
+                <p className=" font-bold text-5xl max-md:text-3xl max-md:pl-3 max-md:pt-3">Клуби</p>
                 <div className=" relative w-full">
                     {/* TODO: decoment this when you figure out how to make the "suggest new club" feature */}
                     {/* <Link href={"#"}>
