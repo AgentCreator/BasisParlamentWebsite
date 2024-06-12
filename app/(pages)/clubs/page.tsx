@@ -10,7 +10,6 @@ interface clubInterface {
 }
 
 const clubs: Array<clubInterface> = [
-    {name:"Test tralala", time:"середа, 15:45 — 16:30", chat:"t.me", owner:"Мумрик"},
     {name:"Генетика (біологія)", chat:"t.me/+01hxnW1fPGZkNzMy"},
     {name:"Головоломки", chat:"t.me/+hJ1bHcF2QVA4ZGQy"},
     {name:"Історично-картографічний", chat:"t.me/+0StbM49B28RmZTZi"},
