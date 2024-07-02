@@ -11,7 +11,7 @@ import { useEffect } from "react";
 // export var darkMode = true
 
 const useStore = create((set) => ({
-    darkMode: false,
+    darkMode: true,
     // darkMode: true,
 
     setDarkMode: () => set((state: any) => ({
@@ -35,8 +35,7 @@ export default function Body(props: any) {
         setDarkMode()
     }, [])
 
-    if (typeof darkMode === "boolean") {
-        console.log(darkMode)
+    console.log(darkMode)
         return <body className={clsx(
             inter.className,
             "transition-colors duration-150",
@@ -44,14 +43,13 @@ export default function Body(props: any) {
                 "dark":darkMode,
                 "bg-black":darkMode,
                 "text-white":darkMode,
-                
+
             },
-            
+
         )}>
-            
+
             {props.children}
         </body>
-    }
 }
 
 export function Footer() {
