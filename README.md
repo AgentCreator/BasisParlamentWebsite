@@ -3,4 +3,5 @@ this is the github page for the welcomeBasis website. it is made by **Oleksander
 <details>
 <summary> suggest new clubs</summary>
 Coming soon!
+  (probably never)
 </details>
