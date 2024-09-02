@@ -17,6 +17,8 @@ export default function Home() {
           frameBorder="0"
           allowFullScreen
           className="h-max w-max"
+          width="635"
+          height="240"
         />
       </div>
       </div>
