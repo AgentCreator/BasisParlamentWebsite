@@ -15,7 +15,7 @@ export default function Home() {
         <iframe
           src="https://www.youtube.com/embed/tIVn0v29ld8?si=bIcnm93t2RNBVYrZ"
           frameBorder="0"
-          allowfullscreen
+          allowFullScreen
         />
       </div>
       </div>
