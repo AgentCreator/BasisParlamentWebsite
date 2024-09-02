@@ -12,7 +12,7 @@ export default function Home() {
 <p className=" text-center my-10 font-bold text-6xl">Вітаю в парламенті<span><BasisLogo/></span></p>
       <div className=" grid place-content-center">
       <div className=" h-60 aspect-video border-2 border-red-600 max-md:w-screen m-2">
-        <iframe className="h-max w-max" src="https://www.youtube.com/embed/tIVn0v29ld8?si=bIcnm93t2RNBVYrZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/tIVn0v29ld8?si=bIcnm93t2RNBVYrZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
       </div>
       <div className=" flex flex-row gap-7 p-5 w-screen">
