@@ -14,7 +14,7 @@ export default function Home() {
       <div className=" h-60 aspect-video border-2 border-red-600 max-md:w-screen m-2">
         <iframe
           src="https://www.youtube.com/embed/tIVn0v29ld8?si=bIcnm93t2RNBVYrZ"
-          frameborder="0"
+          frameBorder="0"
           allowfullscreen
         />
       </div>
