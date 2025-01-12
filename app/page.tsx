@@ -11,7 +11,7 @@ export default function Home() {
     <><div className=" min-h-screen overflow-x-hidden">
 <p className=" text-center my-10 font-bold text-6xl">Вітаю в парламенті<span><BasisLogo/></span></p>
       <div className=" grid place-content-center">
-      <div className=" h-60 aspect-video border-2 border-red-600 max-md:w-screen m-2">
+      <div className=" h-60 aspect-video max-md:w-screen m-2">
         <iframe
           src="https://www.youtube.com/embed/tIVn0v29ld8?si=bIcnm93t2RNBVYrZ"
           frameBorder="0"
