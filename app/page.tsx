@@ -16,7 +16,7 @@ export default function Home() {
           src="https://www.youtube.com/embed/tIVn0v29ld8?si=bIcnm93t2RNBVYrZ"
           frameBorder="0"
           allowFullScreen
-          className="h-max w-max"
+          className="h-full w-full"
           width="635"
           height="240"
         />
